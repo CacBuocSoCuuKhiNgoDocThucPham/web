@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgHeght-Custom {
+    height: 200px;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.accordion-button {
+    background-color: #dadada;
+    border: none;
+}
+
+.accordion-collapse {
+    background-color: #dadada;
+    border: none;
+}
+
+.accordion-button::after {
+    content: ""; 
+    float: left; /* đặt biểu tượng sang phải */
+    left: 0;
+    transition: transform 0.3s ease; /* hiệu ứng chuyển đổi */
+    position: absolute;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    transform: rotate(-90deg); /* xoay biểu tượng khi mở rộng */
+}
+
+.accordion-body > ul > li {
+    font-size: 20px;
+}
+
+.Menu1 > li {
+    font-weight: bold;
+}
+
+.Menu1 > li > ul > li {
+    font-weight: normal;
+}
+
+.inputHeight-custom {
+    height: 80px;
+}
+
+#btn-Custom {
+    background-color: black;
+    border: transparent;
+}
+
+#btn-Custom:hover {
+   opacity: 0.7;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mail a{
+    color: black;
+    text-decoration: none;
+}
+
+.mail a:hover {
+    text-decoration: underline;
+}
+
+.body-Discuss {
+    display: block;
+}
+
+.discuss-detail {
+    border: 1px solid black;
+    height: 320px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+/*                                      UI mới                               */
+/*              Tiện ích 1 ( các bước sơ cứu khi ngộ đôc )             */
+body {
+    background-color: beige;
+}
+
+.navbar-Custom {
+    font-size: 14px;
+}
+
+.hoverCustom a {
+    color: black;
+}
+
+.hoverCustom  a:hover {
+    color: #f58220;
+}
+
+.fontsizeText-Custom {
+    font-size: 50px;
+}
+
+.custom-font-size20 {
+    font-size: 20px;
+}
+
+.card100 {
+    height: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.bg-Custom {
+    background-color: #e9eadc;
+    /* height: 50%; */
+    border: 5px solid #b4be9d;
+    border-radius: 10px;
+}
+
+.bg-Custom h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bg-Custom h5 a:hover {
+    color: orange;
+}
+
+.wCustom {
+    width: 200px;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+/*                              Tien ich 2   (  Chia sẽ các công thức ,...     )                               */
+
+@media (max-width: 576px) {
+    .navbar-custom {
+      width: 100%;
+      background-color:#fff3d3; /* Change to desired color */
+      padding: 10px;
+    }
+    
+    .navbar-custom:hover {
+        opacity: 0.8;
+    }
+
+    .navbar-nav .horizontal {
+        display: none;
+    }
+
+    #navbarNavAltMarkup{
+        background-color: #f8f9fa;
+        padding: 10px;
+    }
+
+    .fontsizeText-Custom {
+        font-size: 20px;
+    }
+
+    .custom-font-size16 {
+        font-size: 15px !important;
+    }
+
+    .custom-font-size20 {
+        font-size: 20px !important;
+    }
+
+    .wCustom {
+        width: 125px;
+    }
+  }

@@ -1,0 +1,34 @@
+body {
+    background-color: #f5f5dc;
+    scroll-behavior: smooth;
+}
+.bg {
+    background-color: #e6f0cd;
+    border: 5px solid #b1bf9e;
+    border-radius: 10px;
+}
+
+.bg h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bg h5 a:hover {
+    color: orange;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+div ol li {
+   margin-bottom: 10px;
+}
+
+
+@media (max-width: 576px) {
+    html {
+        font-size: 62.5%;
+    }
+
+}

@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%; /* 10px */
+}
+
+.bg-Custom-vangdam {
+    background-color: #dbc868;
+    width: 13rem;
+    height: 16rem;
+    border: 5px solid black;
+}
+
+.bg-Custom-vangnhat {
+    background: linear-gradient(to left, #bdece3, #99c0fb);
+    width: 29.5rem;
+    height: 15rem;
+}
+
+
+.triangle-after::after {
+    content: "";
+    position: absolute;
+    left: 99%;
+    top: -10%;
+    width: 0px;
+	height: 0px;
+	border-top: 8rem solid transparent;
+	border-left: 8rem solid #bdece3;
+	border-bottom: 10rem solid transparent;
+}
+
+.text-circle {
+    z-index: 2;
+    top: 40%;
+    left: 5%;
+    text-align: center;
+}
+
+.btnExample {
+   background-color: rgba(168, 252, 168, 0.96);
+   border-radius: 10px;
+}
+
+.btnExample a:visited{
+    text-decoration: underline;
+}
+
+.circle-Custom {
+    position: relative;
+    z-index: 1;
+    transform: translateY(5%);
+}
+
+.left-Custom{
+    transform: translateX(-8.5rem)
+}
+
+.body-Example {
+   display: none;
+}
+@media (max-width: 576px) {
+    html {
+        font-size: 50%;
+    }
+
+    .col-phone {
+        margin-bottom: 10rem !important;
+    }
+
+}

@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+    /* 10px */
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #f5f5dc;
+}
+
+
+.navbar-Custom {
+    font-size: 14px;
+}
+
+.hoverCustom a {
+    color: black;
+}
+
+.hoverCustom a:hover {
+    color: #f58220;
+}
+
+.fontsizeText-Custom {
+    font-size: 50px;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.phoneImg {
+    height: 100%;
+}
+
+.borderCustom {
+    border: 0.75rem solid #375905;
+    border-radius: 3rem;
+    font-size: 4rem;
+}
+
+.sizeArrow {
+    font-size: 13rem;
+}
+
+.borderLuat {
+    border: 0.5rem solid #375905;
+    border-radius: 3rem;
+    font-size: 4rem;
+}
+
+th {
+    font-size: 1.3rem;
+}
+
+td {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 50%;
+    }
+
+    .phoneNone {
+        display: none;
+    }
+
+    .phoneBlock {
+        display: block;
+    }
+
+    .navbar-custom {
+        width: 100%;
+        background-color: #fff3d3;
+        /* Change to desired color */
+        padding: 10px;
+    }
+
+    .navbar-custom:hover {
+        opacity: 0.8;
+    }
+
+    .navbar-nav .horizontal {
+        display: none;
+    }
+
+    #navbarNavAltMarkup {
+        background-color: #f8f9fa;
+        padding: 10px;
+    }
+
+    .fontsizeText-Custom {
+        font-size: 20px;
+    }
+
+    .phoneImg {
+        height: 50%;
+    }
+
+    .borderCustom {
+        border: 0.2rem solid #375905;
+    }
+
+    
+}

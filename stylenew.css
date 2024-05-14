@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgHeght-Custom {
+    height: 200px;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.accordion-button {
+    background-color: #dadada;
+    border: none;
+}
+
+.accordion-collapse {
+    background-color: #dadada;
+    border: none;
+}
+
+.accordion-button::after {
+    content: ""; 
+    float: left; /* đặt biểu tượng sang phải */
+    left: 0;
+    transition: transform 0.3s ease; /* hiệu ứng chuyển đổi */
+    position: absolute;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    transform: rotate(-90deg); /* xoay biểu tượng khi mở rộng */
+}
+
+.accordion-body > ul > li {
+    font-size: 20px;
+}
+
+.Menu1 > li {
+    font-weight: bold;
+}
+
+.Menu1 > li > ul > li {
+    font-weight: normal;
+}
+
+.inputHeight-custom {
+    height: 80px;
+}
+
+#btn-Custom {
+    background-color: black;
+    border: transparent;
+}
+
+#btn-Custom:hover {
+   opacity: 0.7;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mail a{
+    color: black;
+    text-decoration: none;
+}
+
+.mail a:hover {
+    text-decoration: underline;
+}
+
+.body-Discuss {
+    display: block;
+}
+
+.discuss-detail {
+    border: 1px solid black;
+    height: 320px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+/*                                      UI mới                               */
+body {
+    background-color: #e6f0cd;
+    scroll-behavior: smooth;
+}
+
+
+.navbar-Custom {
+    font-size: 14px;
+}
+
+.hoverCustom a {
+    color: black;
+}
+
+.hoverCustom  a:hover {
+    color: #f58220;
+}
+
+.fontsizeText-Custom {
+    font-size: 50px;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.phoneImg {
+    height: 100%;
+}
+
+.btn-rename {
+    background: linear-gradient(45deg, #FFA500, #FFFF00);
+}
+
+.btn-rename:hover {
+    background: linear-gradient(to left, #FFFF00, #FFFF00);
+    color: #333333;
+}
+
+.reply {
+    font-size:11px !important;
+    cursor:pointer;
+    user-select: none;
+}
+
+.inputReply {
+    border-radius: 5px;
+    outline: none;
+}
+
+.blockReply {
+    display: none;
+}
+
+.sendReply {
+    cursor: pointer;
+    font-size: 20px;
+    right: 0;
+    top: 0;
+}
+@media (max-width: 576px) {
+    .navbar-custom {
+      width: 100%;
+      background-color:#fff3d3; /* Change to desired color */
+      padding: 10px;
+    }
+    
+    .navbar-custom:hover {
+        opacity: 0.8;
+    }
+
+    .navbar-nav .horizontal {
+        display: none;
+    }
+
+    #navbarNavAltMarkup{
+        background-color: #f8f9fa;
+        padding: 10px;
+    }
+
+    .fontsizeText-Custom {
+        font-size: 20px;
+    }
+
+    .phoneImg {
+        height: 50%;
+    }
+  }
